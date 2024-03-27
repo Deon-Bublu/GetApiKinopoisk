@@ -46,7 +46,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 
-  gem "sqlite3", "~> 1.4"
+
 
 end
 
@@ -68,5 +68,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem "pg", "1.5.6"
 end
